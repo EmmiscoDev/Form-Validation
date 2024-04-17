@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="whole">
+        <form id="formvalid" action="">
+            <!-- Username -->
+        <div class="content">
+        <h1>Form Validation</h1>
+        <i id="nameerror"></i><br>
+        <label>Username</label><br><br>
+        <input type="text" id="uname" placeholder="Username"><br><br>
+
+        <!-- Password -->
+        <i id="passerror"></i><br>
+        <label>Password</label><br><br>
+        <input type="text" id="password1" placeholder="Password"><br><br>
+        <i id="pass2error"></i><br>
+        <label class="cp">Confirm Password</label><br><br>
+        <input type="text" id="password2" placeholder="Confirm Password"><br><br>
+
+        <!-- E-mail -->
+        <i id="emailerror"></i><br>
+        <label class="mail">E-mail</label><br><br>
+        <input type="email" id="email" placeholder="example@gmail.com"><br><br>
+
+        <!-- Phone number -->
+        <i id="phoneError"></i><br>
+        <label class="ph">Phone Number</label><br><br>
+        <input type="text" id="phonenum" placeholder="+234-000-000-0000"><br>
+
+        <!-- Button -->
+        <button id="subbtn">Submit</button>
+        </div>
+        
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

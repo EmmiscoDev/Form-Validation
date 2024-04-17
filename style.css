@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+    justify-content: center;
+}
+body{
+    background-color: rgb(183, 133, 133);
+}
+i{
+    font-size: 20px;
+    color: red;
+}
+.whole{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 98%;
+    top: 5%;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#nameerror, #passerror, #pass2error,#emailerror, #phoneError{
+    left: 11rem;
+}
+#pass2error{
+    left: 9rem;
+}
+.content{
+    padding-top: 10px;
+    border: 5px black solid;
+    border-style: none;
+    width: 30rem;
+    height: 35rem;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 10%;
+    background-image: linear-gradient(to right, rgb(142, 81, 81) 25%, rgb(77, 59, 59) 75%);
+}
+
+.cp{
+    left: 7rem;
+}
+.ph{
+    left: 8rem;
+}
+.mail{
+    left: 10rem;
+}
+label{
+    font-size: 20px;
+    color: rgb(221, 205, 205);
+    padding-left: 50px;
+}
+input{
+    size: 22px;
+    height: 25px;
+    width: 13rem;
+    text-align: center;
+}
+input, label, i{
+    position: absolute;
+    left: 9rem;
+}
+button{
+    background-color: rgb(14, 13, 13);
+    width: 7rem;
+    color: white;
+    height: 38px;
+    position: absolute;
+    left: 40%;
+    top: 92%;
+    border-style: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(71, 71, 83);
+}
